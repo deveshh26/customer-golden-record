@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customer-golden-record"
+version = "1.0.0"
+description = "Deterministic customer identity resolution and golden-record generation demo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+customer-golden-record = "golden_record.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

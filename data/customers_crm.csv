@@ -1,0 +1,7 @@
+customer_id,name,email,phone,city,postal_code
+C001, Asha Sharma ,ASHA.SHARMA@example.com,+91 98765 43210,Gorakhpur,273001
+C002,Rohan Verma,rohan.v@example.com,9876500001,Lucknow,226001
+C003,Meera Singh,,9876500002,Kanpur,208001
+C004,Sameer Khan,sameer.k@example.com,,Delhi,110001
+C005,Neha Patel,neha.p@example.com,9876500005,Jaipur,302001
+C006,Jordan Lee,,,Pune,411001

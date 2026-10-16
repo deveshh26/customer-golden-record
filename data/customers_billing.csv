@@ -1,0 +1,8 @@
+customer_id,name,email,phone,city,postal_code
+B101,Asha  Sharma,asha.sharma@EXAMPLE.com,9876543210,Gorakhpur,273001
+B102,Rohan Verma,rohan.v@example.com,9876500001,Lucknow,226001
+B103,Meera Singh,,9876500002,Kanpur,208001
+B104,Sameer Kahn,sameer.k@example.com,,Delhi,110001
+B105,Neha Patel,neha.p@example.com,9876500005,Jaipur,302001
+B106,Jordan Lee,,,Pune,
+B107,Jordan Lee,,,Mumbai,400001

@@ -34,20 +34,44 @@ For a matched cluster, non-empty values are selected field-by-field using source
 - SQLite (included with supported Python distributions)
 - Optional: local Ollama install and a model downloaded locally, only if you choose the Ollama explanation adapter
 
+
+
 ## Setup
 
+Clone the repository and enter the project directory:
+
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/deveshh26/customer-golden-record.git
 cd customer-golden-record
+```
+
+Create and activate a virtual environment.
+
+**macOS / Linux**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**Windows PowerShell**
+
+```powershell
 python -m venv .venv
-source .venv/bin/activate       # macOS/Linux
-# Windows PowerShell: .venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
+```
+
+Install the project:
+
+```bash
 python -m pip install -e .
 ```
 
 No API keys or secrets are needed.
 
 ## Run
+
+Run the pipeline:
 
 ```bash
 customer-golden-record
@@ -66,6 +90,7 @@ customer-golden-record --crm data/customers_crm.csv --billing data/customers_bil
 ```
 
 The CSV input headers should be `customer_id,name,email,phone,city,postal_code`. Source names are assigned by the CLI (`crm` and `billing`).
+
 
 ## Output files
 
